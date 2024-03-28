@@ -1,0 +1,18 @@
+name: ft-fhealth
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.8
+  - cloudpickle==1.6.0
+  - matplotlib==3.3.4
+  - numpy==1.20.2
+  - pandas==1.2.5
+  - scikit-learn==0.23.2
+  - scikit-optimize=0.8.1
+  - scikit-plot
+  - seaborn
+  - scipy==1.6.2
+  - pip
+  - pip:
+      - mlflow
+      - xgboost==1.4.2

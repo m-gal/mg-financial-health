@@ -1,0 +1,10 @@
+name: ft-fhealth
+
+## MLproject files cannot specify both a Conda env and a Docker environments.
+## Can have a docker_env instead of a conda_env, e.g.
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    command: "python ../fhealth/main.py"

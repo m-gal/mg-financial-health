@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.idea/
+.spyproject/
+*.code-workspace
+*.ssmssln
+*.ssmssqlproj
+
+data/analyze
+zips/
